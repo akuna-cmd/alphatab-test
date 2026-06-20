@@ -1,0 +1,46 @@
+# Android / Gradle build output
+/build/
+/app/build/
+
+# Gradle local cache
+/.gradle/
+
+# Kotlin local cache
+/.kotlin/
+
+# Android Studio / IntelliJ local state
+/.idea/
+*.iml
+
+# Local SDK path and machine-specific config
+/local.properties
+
+# Generated packages and reports
+*.apk
+*.aab
+*.ap_
+*.dex
+/captures/
+*.hprof
+
+# Signing files and local secrets
+*.jks
+*.keystore
+/keystore.properties
+
+# Native build output
+/.cxx/
+/app/.cxx/
+/externalNativeBuild/
+/app/externalNativeBuild/
+
+# Local-only exported artifacts
+/artifacts/
+
+# Local assistant/tool scratch state
+/.agents/
+/.codex_tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
